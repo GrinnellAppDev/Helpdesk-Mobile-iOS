@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1602F0021535DA0B003B50F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1602F0011535DA0B003B50F1 /* UIKit.framework */; };
+		1602F0041535DA0B003B50F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1602F0031535DA0B003B50F1 /* Foundation.framework */; };
+		1602F0061535DA0B003B50F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1602F0051535DA0B003B50F1 /* CoreGraphics.framework */; };
+		1602F00C1535DA0B003B50F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1602F00A1535DA0B003B50F1 /* InfoPlist.strings */; };
+		1602F00E1535DA0B003B50F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1602F00D1535DA0B003B50F1 /* main.m */; };
+		1602F0121535DA0B003B50F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1602F0111535DA0B003B50F1 /* AppDelegate.m */; };
+		1602F0151535DA0B003B50F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1602F0131535DA0B003B50F1 /* MainStoryboard.storyboard */; };
+		1602F0181535DA0B003B50F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1602F0171535DA0B003B50F1 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1602EFFD1535DA0B003B50F1 /* Helpdesk-Mobile-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Helpdesk-Mobile-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1602F0011535DA0B003B50F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1602F0031535DA0B003B50F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1602F0051535DA0B003B50F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1602F0091535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Info.plist */ = {isa = PBXFileReference; path = "Helpdesk-Mobile-iOS-Info.plist"; sourceTree = "<group>"; };
+		1602F00B1535DA0B003B50F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1602F00D1535DA0B003B50F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1602F00F1535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "Helpdesk-Mobile-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		1602F0101535DA0B003B50F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1602F0111535DA0B003B50F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1602F0141535DA0B003B50F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1602F0161535DA0B003B50F1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1602F0171535DA0B003B50F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1602EFFA1535DA0B003B50F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1602F0021535DA0B003B50F1 /* UIKit.framework in Frameworks */,
+				1602F0041535DA0B003B50F1 /* Foundation.framework in Frameworks */,
+				1602F0061535DA0B003B50F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1602EFF21535DA0B003B50F1 = {
+			isa = PBXGroup;
+			children = (
+				1602F0071535DA0B003B50F1 /* Helpdesk-Mobile-iOS */,
+				1602F0001535DA0B003B50F1 /* Frameworks */,
+				1602EFFE1535DA0B003B50F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1602EFFE1535DA0B003B50F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1602EFFD1535DA0B003B50F1 /* Helpdesk-Mobile-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1602F0001535DA0B003B50F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1602F0011535DA0B003B50F1 /* UIKit.framework */,
+				1602F0031535DA0B003B50F1 /* Foundation.framework */,
+				1602F0051535DA0B003B50F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1602F0071535DA0B003B50F1 /* Helpdesk-Mobile-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1602F0101535DA0B003B50F1 /* AppDelegate.h */,
+				1602F0111535DA0B003B50F1 /* AppDelegate.m */,
+				1602F0131535DA0B003B50F1 /* MainStoryboard.storyboard */,
+				1602F0161535DA0B003B50F1 /* ViewController.h */,
+				1602F0171535DA0B003B50F1 /* ViewController.m */,
+				1602F0081535DA0B003B50F1 /* Supporting Files */,
+			);
+			path = "Helpdesk-Mobile-iOS";
+			sourceTree = "<group>";
+		};
+		1602F0081535DA0B003B50F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1602F0091535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Info.plist */,
+				1602F00A1535DA0B003B50F1 /* InfoPlist.strings */,
+				1602F00D1535DA0B003B50F1 /* main.m */,
+				1602F00F1535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1602EFFC1535DA0B003B50F1 /* Helpdesk-Mobile-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1602F01B1535DA0B003B50F1 /* Build configuration list for PBXNativeTarget "Helpdesk-Mobile-iOS" */;
+			buildPhases = (
+				1602EFF91535DA0B003B50F1 /* Sources */,
+				1602EFFA1535DA0B003B50F1 /* Frameworks */,
+				1602EFFB1535DA0B003B50F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Helpdesk-Mobile-iOS";
+			productName = "Helpdesk-Mobile-iOS";
+			productReference = 1602EFFD1535DA0B003B50F1 /* Helpdesk-Mobile-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1602EFF41535DA0B003B50F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Grinnell College";
+			};
+			buildConfigurationList = 1602EFF71535DA0B003B50F1 /* Build configuration list for PBXProject "Helpdesk-Mobile-iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1602EFF21535DA0B003B50F1;
+			productRefGroup = 1602EFFE1535DA0B003B50F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1602EFFC1535DA0B003B50F1 /* Helpdesk-Mobile-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1602EFFB1535DA0B003B50F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1602F00C1535DA0B003B50F1 /* InfoPlist.strings in Resources */,
+				1602F0151535DA0B003B50F1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1602EFF91535DA0B003B50F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1602F00E1535DA0B003B50F1 /* main.m in Sources */,
+				1602F0121535DA0B003B50F1 /* AppDelegate.m in Sources */,
+				1602F0181535DA0B003B50F1 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1602F00A1535DA0B003B50F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1602F00B1535DA0B003B50F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1602F0131535DA0B003B50F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1602F0141535DA0B003B50F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1602F0191535DA0B003B50F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1602F01A1535DA0B003B50F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1602F01C1535DA0B003B50F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helpdesk-Mobile-iOS/Helpdesk-Mobile-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Helpdesk-Mobile-iOS/Helpdesk-Mobile-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1602F01D1535DA0B003B50F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Helpdesk-Mobile-iOS/Helpdesk-Mobile-iOS-Prefix.pch";
+				INFOPLIST_FILE = "Helpdesk-Mobile-iOS/Helpdesk-Mobile-iOS-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1602EFF71535DA0B003B50F1 /* Build configuration list for PBXProject "Helpdesk-Mobile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1602F0191535DA0B003B50F1 /* Debug */,
+				1602F01A1535DA0B003B50F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1602F01B1535DA0B003B50F1 /* Build configuration list for PBXNativeTarget "Helpdesk-Mobile-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1602F01C1535DA0B003B50F1 /* Debug */,
+				1602F01D1535DA0B003B50F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1602EFF41535DA0B003B50F1 /* Project object */;
+}
