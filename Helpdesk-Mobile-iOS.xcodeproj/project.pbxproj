@@ -22,14 +22,14 @@
 		1602F0011535DA0B003B50F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1602F0031535DA0B003B50F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1602F0051535DA0B003B50F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1602F0091535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Info.plist */ = {isa = PBXFileReference; path = "Helpdesk-Mobile-iOS-Info.plist"; sourceTree = "<group>"; };
+		1602F0091535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Helpdesk-Mobile-iOS-Info.plist"; sourceTree = "<group>"; };
 		1602F00B1535DA0B003B50F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1602F00D1535DA0B003B50F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1602F00F1535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Prefix.pch */ = {isa = PBXFileReference; path = "Helpdesk-Mobile-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		1602F0101535DA0B003B50F1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1602F00F1535DA0B003B50F1 /* Helpdesk-Mobile-iOS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Helpdesk-Mobile-iOS-Prefix.pch"; sourceTree = "<group>"; };
+		1602F0101535DA0B003B50F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1602F0111535DA0B003B50F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1602F0141535DA0B003B50F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1602F0161535DA0B003B50F1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		1602F0161535DA0B003B50F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1602F0171535DA0B003B50F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
